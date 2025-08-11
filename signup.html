@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Facebook - Sign Up</title>
+</head>
+<body>
+    <div class="main container d-flex flex-column align-items-center py-5">
+            <div class="cr-acc w-50 text-center bg-primary rounded-top-2">
+                <p class="m-0 p-2 text-white fs-3 fw-bold">Create Account</p>
+            </div>
+        <form action="#" class="sign-up d-flex flex-column w-50 shadow-lg py-4 rounded-bottom-2">
+            <div class="d-flex gap-3 flex-column flex-lg-row align-items-sm-center align-items-lg-start">
+                <div class="form-left text-primary fw-bold d-flex flex-column gap-4 w-50 ps-lg-4 p-md-0 px-4">
+                    <div class="d-flex flex-column">
+                        <label class="mb-2" for="fn">First Name:</label>
+                        <input class="p-1 rounded-2 border" type="text" id="fn" placeholder="Enter your first name">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <label class="mb-2" for="email">Email:</label>
+                        <input class="p-1 rounded-2 border" type="email" id="email" placeholder="Enter your email address">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <label class="mb-2" for="psw">Password:</label>
+                        <input class="p-1 rounded-2 border" type="password" id="psw" placeholder="Enter your password">
+                    </div>
+                    <div class="gndr d-flex flex-column">
+                        <p class="mb-2">Gender:</p>
+                        <div class="mb-2">
+                            <input type="radio" name="gndr" id="male">
+                            <label class="gn-lab text-secondary user-select-none" for="male">Male</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="gndr" id="female">
+                            <label class="gn-lab text-secondary user-select-none" for="female">Female</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-right text-primary fw-bold d-flex flex-column gap-4 w-50 pe-lg-4 p-md-0 px-4">
+                    <div class="d-flex flex-column">
+                        <label class="mb-2" for="ln">Last Name:</label>
+                        <input class="p-1 rounded-2 border" type="text" id="ln" placeholder="Enter your last name">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <label class="mb-2" for="pnum">Phone Number:</label>
+                        <input class="p-1 rounded-2 border" type="tel" id="pnum" placeholder="Enter your phone number">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <label class="mb-2" for="cpsw">Confirm Password:</label>
+                        <input class="p-1 rounded-2 border" type="password" id="cpsw" placeholder="Confirm your password">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <label class="mb-2" for="bd">Birthdate:</label>
+                        <input class="p-1 rounded-2 border text-primary" type="date" id="bd">
+                    </div>
+                </div>
+            </div>
+            <div class="buttons px-4 pt-4 text-center text-lg-start">
+                <input class="p-2 rounded-2 border-0 bg-primary text-white fw-medium w-25" type="reset" value="Reset">
+                <input class="p-2 rounded-2 border-0 bg-primary text-white fw-medium w-25" type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

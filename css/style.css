@@ -1,0 +1,57 @@
+.main-text, .main-form {
+    width: 30% !important;
+}
+
+.main-text h1 {
+    font-size: calc(1.5rem + 2vw) !important;
+}
+
+input[type=checkbox], .sp-lab, input[type=radio], .gn-lab {
+    cursor: pointer;
+}
+
+button, input[type=reset], input[type=submit] {
+    transition: 0.25s;
+}
+
+button:hover, input[type=reset]:hover, input[type=submit]:hover {
+    filter: opacity(0.85);
+}
+
+.cna {
+    background-color: #42b72a;
+}
+
+
+
+@media screen and (max-width:1200px) and (min-width: 992px) {
+    .main-text, .main-form {
+    width: 40% !important;
+}
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .main-text, .main-form {
+        width: 75% !important;
+    }
+    .sign-up, .cr-acc, .form-left, .form-right {
+        width: 75% !important;
+    }
+    input[type=reset], input[type=submit] {
+        width: 37.5% !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main-text, .main-form {
+        width: 100% !important;
+    }
+        .sign-up, .cr-acc, .form-left, .form-right {
+        width: 100% !important;
+    }
+        input[type=reset], input[type=submit] {
+        width: 50% !important;
+    }
+    .buttons {
+        text-wrap-mode: nowrap;
+    }
+}
