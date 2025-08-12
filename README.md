@@ -13,7 +13,7 @@ A minimal clone of the Facebook login page using Bootstrap v5. This project is f
 - Bootstrap v5
 
 ## 📸 Preview
-![Screenshot](facebook-login-clone.png)
+![Screenshot](screenshot.png)
 
 ## 📂 How to Use
 1. Clone the repo:
