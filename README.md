@@ -18,5 +18,6 @@ A minimal clone of the Facebook login page using Bootstrap v5. This project is f
 ## 📂 How to Use
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/facebook-login-clone.git
+   git clone https://github.com/Mohammed-Sherif1/BootstrapV5-Facebook-Login-Clone.git
+   ```
 2. Open `index.html` in your browser.
